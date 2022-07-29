@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: green ;
+    border: 10px solid blue;
+    box-sizing:border-box;
+}
+.container_two{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+    border: 10px solid red;
+    box-sizing:content-box;
+}
+
+.paragraph{
+    color: red;
+    background-color: blue;
+    /* padding-left: 10px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px; */
+    padding: 100px 100px 200px 10px;
+}
+
+
+.paragraph_two{
+    color: white;
+    background-color: black;
+    margin-top: 100px;
+    margin-right: 1000px;   
+    margin-left: 50px;
+}
+
+
+.text{
+    background-color: aqua;
+    margin: 30px 60px  80px 20px ;
+    padding: 70px 50px 90px 10px ;
+    border-top: 10px solid black;
+    border-right: 4px solid green;
+    border-bottom: 7px solid red;
+    border-left: 1px solid gold;
+    color: green;
+}
+
+
+header{
+    width: 100%;
+    height: 400px;
+    background-color: green;
+}
+
+nav{
+    width: 100%;
+    height: 45px;
+    background-color: blue;
+
+}
+
+.hero{
+    width: 1400px;
+    height: 300px;
+    background-color: lawngreen ;
+    margin: auto;
+}
+
+
+main{
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+
+}
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color: pink;
+}
